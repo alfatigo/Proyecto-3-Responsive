@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #f8f8f8;
+}
+
+header {
+  width: 100%;
+  background-color: #65647C;
+  margin-bottom: 0em;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  padding: 1rem;
+}
+header h1 a {
+  text-decoration: none;
+  color: black;
+}
+nav {
+  background-color: #20202c;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-content: center;
+  justify-content: center;
+}
+
+nav ul li {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  border-bottom: solid transparent 2px;
+  transition: 0.1s ease;
+}
+nav li:hover {
+  border-bottom: solid #757575 2px;
+  transition: all 0.1s ease 0.2;
+}
+main {
+  display: grid;
+}
+.title {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem;
+  margin: 2.3rem;
+  color: black;
+  border-bottom: #65647C 2px solid;
+}
+.section__cards {
+  margin: 0 auto 0;
+  width: 80%;
+  max-width: 768px;
+  
+}
+
+.cards {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+}
+
+.card {
+  border-radius: 1px solid ;
+  width: 240px;
+  height: 275px;
+  border-radius: 1px;
+  margin: 1.3rem;
+  overflow: hidden;
+  margin: auto;
+  box-shadow: 19px 12px 14px rgba(59, 59, 59, 0.151);
+}
+
+.card__title {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: rgb(214, 214, 214);
+  text-align: center;
+  border-radius: 2px;
+  font-size: 1.5em;
+  box-shadow: 19px 12px 14px rgba(59, 59, 59, 0.151);
+
+}
+
+.card__image {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  box-shadow: 1px 12px 4px 12 rgba(59, 59, 59, 0.151);
+
+}
+.card__image img {
+  display: block;
+    border-radius: 2px;
+  width: 100%;
+}
+.card__description {
+  text-align: justify;
+  display: block;
+
+  padding: 1rem;
+}
+
+.contact__title {
+  font-size: 3rem;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.section__form {
+  border: solid 1px violet;
+}
+
+input {
+  display: block;
+  font-size: 1.6rem;
+  border: none;
+  background-color: red;
+  border-radius: 5px;
+  margin: 1.3rem;
+  padding: 0.7rem;
+}
+
+.form__wrapper {
+  display: grid;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  font-size: 1.6rem;
+  height: 30px;
+  border-radius: 5px;
+}
+
+footer {
+  height: 40px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1.9rem;
+  padding: 20px;
+}
